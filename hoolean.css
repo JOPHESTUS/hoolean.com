@@ -1,0 +1,132 @@
+html
+{
+	width: 100%;
+	height: 100%;
+	
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+	
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5
+{
+	font-family: 'Ubuntu Condensed', 'Gills Sans', sans-serif;
+}
+
+h1, h2
+{
+	text-shadow: -2px -2px rgba(0, 0, 0, 0.3);
+}
+
+h3, h4, h5
+{
+	text-shadow: -1px -1px rgba(0, 0, 0, 0.3);
+}
+
+p
+{
+	font-family: 'Ubuntu', Arial, serif;
+}
+
+#main
+{
+	width: 1024px;
+	height: auto;
+
+	margin-left: auto;
+	margin-right: auto;
+	
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+	min-width: 1024;
+	max-width: 1650;
+	
+	box-shadow: -4px -4px rgba(0, 0, 0, 0.3);
+}
+
+#container
+{
+	padding: 2em;
+}
+
+.row
+{
+	height: auto;
+	margin-bottom: 2%;
+}
+
+.normal
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	border-top: 2px solid rgba(0,0,0,0.3);
+	border-left: 2px solid rgba(0,0,0,0.3);
+}
+
+.special
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    box-sizing: border-box;
+	border-bottom: 2px solid rgba(0,0,0,0.3);
+	border-right: 2px solid rgba(0,0,0,0.3);
+}
+
+.item
+{
+	float: left;
+}
+
+.item > *
+{
+	padding: 1em;
+	margin: 0;
+}
+
+.filler
+{
+	clear: both;
+}
+
+.empty
+{
+	height: 1px;
+}
+
+/* Button colour scheme A */
+.ba
+{
+	background: #3498db;
+	color: white;
+}
+
+/* Button colour scheme B */
+.bb
+{
+	background: white;
+	color: #3498db;
+}
+
+/* Content colour scheme A */
+.ca
+{
+	background: #1abc9c;
+	color: white;
+}
+
+/* Content colour scheme B */
+.cb
+{
+	background: white;
+	color: #1abc9c;
+}
