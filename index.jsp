@@ -13,7 +13,8 @@
 				<!-- Example header row -->
 				<div class="row">
 					<div class="item ca normal" style="width:100%">
-						<h2>Example Article</h2>
+						<h2>JOPH is awesome</h2>
+						<p>JOPH is the purest and most abudant source of awesomeness. JOPH dedicates his life to educating people about his pure awesomeness.
 					</div>
 					<div class="filler"></div>
 				</div>
